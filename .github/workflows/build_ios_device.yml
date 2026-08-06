@@ -8,8 +8,15 @@ jobs:
     runs-on: macos-latest
 
     steps:
-    - uses: actions/checkout@v3
+    # ------------------------------------------------------------
+    # Checkout repository
+    # ------------------------------------------------------------
+    - name: Checkout repository
+      uses: actions/checkout@v4
 
+    # ------------------------------------------------------------
+    # Build archive
+    # ------------------------------------------------------------
     - name: Build archive
       run: |
         xcodebuild \
@@ -20,6 +27,9 @@ jobs:
           -archivePath build/ClearPadMobile.xcarchive \
           archive
 
+    # ------------------------------------------------------------
+    # Create ExportOptions.plist
+    # ------------------------------------------------------------
     - name: Create ExportOptions.plist
       run: |
         cat <<EOF > ExportOptions.plist
@@ -32,6 +42,9 @@ jobs:
         }
         EOF
 
+    # ------------------------------------------------------------
+    # Export IPA
+    # ------------------------------------------------------------
     - name: Export IPA
       run: |
         xcodebuild \
@@ -40,8 +53,11 @@ jobs:
           -exportPath output \
           -exportOptionsPlist ExportOptions.plist
 
+    # ------------------------------------------------------------
+    # Upload IPA (v4)
+    # ------------------------------------------------------------
     - name: Upload IPA
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
         name: ClearPadMobile-IPA
         path: output/*.ipa
