@@ -1,0 +1,268 @@
+// !$*UTF8*$!
+{
+    archiveVersion = 1;
+    objectVersion = 56;
+    classes = {};
+    objects = {
+
+02E858A4028A47B1B61F4B69 = {
+    isa = PBXBuildFile;
+    fileRef = 18173B016A2F4795BC392FD6;
+};
+
+05D1FFE46A964BD2A7A1C457 = {
+    isa = PBXBuildFile;
+    fileRef = C726695479AB4E2FA1AA62FF;
+};
+
+115AD2136950492EBC3F1B5D = {
+    isa = PBXFileReference;
+    lastKnownFileType = sourcecode.swift;
+    path = "DocxWriter.swift";
+    sourceTree = "<group>";
+};
+
+13577632229A4C1EBF10A077 = {
+    isa = XCConfigurationList;
+    buildConfigurations = (2826161A652B42A993AA8DB9, C6541EC049624501A7D7162E);
+    defaultConfigurationName = "Debug";
+};
+
+1542D82A335647F2B8D256F5 = {
+    isa = PBXBuildFile;
+    fileRef = A7DE56B11AF545D0B93393A4;
+};
+
+18173B016A2F4795BC392FD6 = {
+    isa = PBXFileReference;
+    lastKnownFileType = sourcecode.swift;
+    path = "CorrezioneInterattivaView.swift";
+    sourceTree = "<group>";
+};
+
+1F7AFEEDD359437FA649F926 = {
+    isa = PBXBuildFile;
+    fileRef = 8E91619226AB4B1ABBEABC28;
+};
+
+25A99A1A27E942728BF009EC = {
+    isa = PBXFileReference;
+    lastKnownFileType = sourcecode.swift;
+    path = "EditorView.swift";
+    sourceTree = "<group>";
+};
+
+2826161A652B42A993AA8DB9 = {
+    isa = XCBuildConfiguration;
+    name = "Debug";
+    buildSettings = { PRODUCT_NAME = "clearpad"; INFOPLIST_FILE = "ClearPadMobile.xcodeproj/Info.plist"; PRODUCT_BUNDLE_IDENTIFIER = "com.gramuglia.clearpad"; };
+};
+
+2A7A437C0C57434B978A9818 = {
+    isa = PBXBuildFile;
+    fileRef = 2B2CE764D8C14816A53708AC;
+};
+
+2B2CE764D8C14816A53708AC = {
+    isa = PBXFileReference;
+    lastKnownFileType = sourcecode.swift;
+    path = "DocxReader.swift";
+    sourceTree = "<group>";
+};
+
+2DF50EEB44F74AF691E89AE7 = {
+    isa = PBXBuildFile;
+    fileRef = 9AD3D4FCCD734923ABE4E98F;
+};
+
+359E813269F342609C869AD1 = {
+    isa = PBXBuildFile;
+    fileRef = 25A99A1A27E942728BF009EC;
+};
+
+44FAF82741E34B5BBFD5610A = {
+    isa = PBXFileReference;
+    lastKnownFileType = sourcecode.swift;
+    path = "SharedArticleView.swift";
+    sourceTree = "<group>";
+};
+
+4E99C15A95694108AB93C89F = {
+    isa = PBXFileReference;
+    lastKnownFileType = sourcecode.swift;
+    path = "ContentView.swift";
+    sourceTree = "<group>";
+};
+
+55C9E20309AC41BEB5B8ADB7 = {
+    isa = PBXNativeTarget;
+    name = "clearpad";
+    productName = "clearpad";
+    productType = "com.apple.product-type.application";
+    buildConfigurationList = 13577632229A4C1EBF10A077;
+    buildPhases = (B357ECA88C524BC1AFB2A0F9, None, None);
+};
+
+56E51CDD510D41EC980629B4 = {
+    isa = PBXBuildFile;
+    fileRef = 115AD2136950492EBC3F1B5D;
+};
+
+6D6A4C71FA0548CE8A7B2D3A = {
+    isa = PBXFileReference;
+    lastKnownFileType = sourcecode.swift;
+    path = "ClearPadMobileApp.swift";
+    sourceTree = "<group>";
+};
+
+79F6E1FF46FB41C5905FD467 = {
+    isa = PBXBuildFile;
+    fileRef = C00E521F94EE40C48CFADE4E;
+};
+
+7B2F949E8A084F448467332C = {
+    isa = PBXProject;
+    compatibilityVersion = "Xcode 14.0";
+    developmentRegion = "en";
+    targets = (55C9E20309AC41BEB5B8ADB7);
+    mainGroup = C5F9A29E2E7A4775964A0C22;
+};
+
+83D8A52D58EF48F2AB50BA91 = {
+    isa = PBXFileReference;
+    lastKnownFileType = sourcecode.swift;
+    path = "ShareSheet.swift";
+    sourceTree = "<group>";
+};
+
+8E91619226AB4B1ABBEABC28 = {
+    isa = PBXFileReference;
+    lastKnownFileType = sourcecode.swift;
+    path = "correzzione.swift";
+    sourceTree = "<group>";
+};
+
+909C8557768E4BE687433C3D = {
+    isa = PBXBuildFile;
+    fileRef = 6D6A4C71FA0548CE8A7B2D3A;
+};
+
+9AD3D4FCCD734923ABE4E98F = {
+    isa = PBXFileReference;
+    lastKnownFileType = sourcecode.swift;
+    path = "ArticoliListView.swift";
+    sourceTree = "<group>";
+};
+
+A7DE56B11AF545D0B93393A4 = {
+    isa = PBXFileReference;
+    lastKnownFileType = sourcecode.swift;
+    path = "PDFView.swift";
+    sourceTree = "<group>";
+};
+
+B357ECA88C524BC1AFB2A0F9 = {
+    isa = PBXSourcesBuildPhase;
+    buildActionMask = 2147483647;
+    files = (
+        2DF50EEB44F74AF691E89AE7,
+        79F6E1FF46FB41C5905FD467,
+        05D1FFE46A964BD2A7A1C457,
+        909C8557768E4BE687433C3D,
+        CE3C78F2649749D0B74868D0,
+        02E858A4028A47B1B61F4B69,
+        2A7A437C0C57434B978A9818,
+        56E51CDD510D41EC980629B4,
+        359E813269F342609C869AD1,
+        1542D82A335647F2B8D256F5,
+        E91DAB76D3C94E8B818C5E28,
+        D373C9844D0E4AA89B2097DE,
+        FE4CDD9307974F02A8DA9421,
+        1F7AFEEDD359437FA649F926,
+    );
+};
+
+BF091A041D984F5F8D1148E2 = {
+    isa = PBXResourcesBuildPhase;
+    buildActionMask = 2147483647;
+    files = ();
+};
+
+C00E521F94EE40C48CFADE4E = {
+    isa = PBXFileReference;
+    lastKnownFileType = sourcecode.swift;
+    path = "ArticoloManager.swift";
+    sourceTree = "<group>";
+};
+
+C5F9A29E2E7A4775964A0C22 = {
+    isa = PBXGroup;
+    name = "ClearPadMobile";
+    sourceTree = "<group>";
+    children = (
+        9AD3D4FCCD734923ABE4E98F,
+        C00E521F94EE40C48CFADE4E,
+        C726695479AB4E2FA1AA62FF,
+        6D6A4C71FA0548CE8A7B2D3A,
+        4E99C15A95694108AB93C89F,
+        18173B016A2F4795BC392FD6,
+        2B2CE764D8C14816A53708AC,
+        115AD2136950492EBC3F1B5D,
+        25A99A1A27E942728BF009EC,
+        A7DE56B11AF545D0B93393A4,
+        83D8A52D58EF48F2AB50BA91,
+        F6230277E8EF4C5F92F1F375,
+        44FAF82741E34B5BBFD5610A,
+        8E91619226AB4B1ABBEABC28,
+    );
+};
+
+C6541EC049624501A7D7162E = {
+    isa = XCBuildConfiguration;
+    name = "Release";
+    buildSettings = { PRODUCT_NAME = "clearpad"; INFOPLIST_FILE = "ClearPadMobile.xcodeproj/Info.plist"; PRODUCT_BUNDLE_IDENTIFIER = "com.gramuglia.clearpad"; };
+};
+
+C726695479AB4E2FA1AA62FF = {
+    isa = PBXFileReference;
+    lastKnownFileType = sourcecode.swift;
+    path = "CleanTextView.swift";
+    sourceTree = "<group>";
+};
+
+CE3C78F2649749D0B74868D0 = {
+    isa = PBXBuildFile;
+    fileRef = 4E99C15A95694108AB93C89F;
+};
+
+D373C9844D0E4AA89B2097DE = {
+    isa = PBXBuildFile;
+    fileRef = F6230277E8EF4C5F92F1F375;
+};
+
+E91DAB76D3C94E8B818C5E28 = {
+    isa = PBXBuildFile;
+    fileRef = 83D8A52D58EF48F2AB50BA91;
+};
+
+EA6056472BC0424B9303BBDA = {
+    isa = PBXFrameworksBuildPhase;
+    buildActionMask = 2147483647;
+    files = ();
+};
+
+F6230277E8EF4C5F92F1F375 = {
+    isa = PBXFileReference;
+    lastKnownFileType = sourcecode.swift;
+    path = "ShareViewController.swift";
+    sourceTree = "<group>";
+};
+
+FE4CDD9307974F02A8DA9421 = {
+    isa = PBXBuildFile;
+    fileRef = 44FAF82741E34B5BBFD5610A;
+};
+
+    };
+    rootObject = 7B2F949E8A084F448467332C;
+}
