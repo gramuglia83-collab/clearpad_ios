@@ -1,7 +1,0 @@
-
-// Minimal PBXProject
-{
-    archiveVersion = 1;
-    objectVersion = 56;
-    rootObject = 1;
-}
