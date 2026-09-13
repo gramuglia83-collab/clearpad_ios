@@ -1,1 +1,0 @@
-ClearPad iOS – Commit iniziale
